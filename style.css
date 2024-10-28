@@ -1,1 +1,40 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
+#css-zen-garden {
+    background-image: url(desert-dune-landscape-vector-illustration-mountain-background-realistic-cartoon-sahara-africa-yellow-scene-330462461.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.main.supporting {
+    font-size: 0.75rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 40%;
+    margin: 0 auto;
+}
+
+.page-wrapper{ 
+    border: 1px solid;
+    max-width: 40%;
+    background-image: linear-gradient(180deg, #C7E0D5 0%, #FBD768 100%);
+    margin: 0 auto;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: ;
+}
+
+div [role=banner] {
+    border: 0px solid;
+    max-width: ;
+}
+.preamble {
+    font-size: 0.75rem;
+    justify-content: center;
+}
+ /* * {
+    background-image: url(desert-dune-landscape-vector-illustration-mountain-background-realistic-cartoon-sahara-africa-yellow-scene-330462461.webp);
+} */
