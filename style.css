@@ -1,8 +1,29 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Kablammo&family=Kavivanar&family=Shadows+Into+Light&family=Smooch&display=swap');
+
+*{
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.95rem;
+}
+
 #css-zen-garden {
     background-image: url(desert-dune-landscape-vector-illustration-mountain-background-realistic-cartoon-sahara-africa-yellow-scene-330462461.webp);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-attachment: fixed;
+}
+
+h2 > abbr {
+    display: flex;
+    justify-content: center;
+    font-family: "Island Moments", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    margin-left: 6px;
+    margin-right: 3px;
 }
 
 .main.supporting {
@@ -19,22 +40,82 @@
     max-width: 40%;
     background-image: linear-gradient(180deg, #C7E0D5 0%, #FBD768 100%);
     margin: 0 auto;
+    position: relative;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
     display: flex;
     justify-content: center;
-    font-family: ;
+    font-family: "Island Moments", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
 }
 
 div [role=banner] {
-    border: 0px solid;
-    max-width: ;
+    font-family: "Island Moments", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
 }
-.preamble {
+.summary {
+max-width: 80%;
+display: flex;
+margin: 0 auto;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+
+.intro .preamble {
     font-size: 0.75rem;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 75%;
+    max-width: 25%;
+    position: absolute;
+    top: 13.5%;
+    right: 5%;
 }
- /* * {
-    background-image: url(desert-dune-landscape-vector-illustration-mountain-background-realistic-cartoon-sahara-africa-yellow-scene-330462461.webp);
-} */
+
+.sidebar {
+    position: absolute;
+    top: 13.5%;
+    left: 5%;
+    max-width: 20%;
+    font-size: 0.75rem;
+}
+
+body {
+    font-family: "Kavivanar", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+}
+
+a:link {
+    color:rgb(134, 92, 1);
+}
+
+a:visited {
+    color:rgb(134, 92, 1);
+}
+
+a:hover {
+    color: rgb(194, 116, 0);
+}
+
+a:active {
+    color: rgb(110, 66, 0);
+}
+
+p:last-child {
+    margin-bottom: 20px;
+}
+
+p:first-child {
+    margin-top: 25px;
+}
