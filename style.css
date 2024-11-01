@@ -38,7 +38,11 @@ h2 > abbr {
 .page-wrapper{ 
     border: 1px solid;
     max-width: 40%;
-    background-image: linear-gradient(180deg, #C7E0D5 0%, #FBD768 100%);
+    background-image:url(snake.png), url(cactus.png), url(camel1-removebg-preview.png), url(camel2-removebg-preview.png), linear-gradient(180deg, #C7E0D5 0%, #FBD768 100%);
+    background-size: 25%, 25%, 25%, 25%, 100%;
+    background-position-x:95%, 5%, 5%, 95%, center;
+    background-repeat: no-repeat;
+    background-position-y:82%, 68%, 95%, 50%;
     margin: 0 auto;
     position: relative;
 }
@@ -61,6 +65,13 @@ h1 {
     margin-bottom: 5px;
 }
 
+#zen-intro.intro {
+    background-image: url(pyramid-removebg-preview\ \(1\).png), url(f3694b35c1a5a7989cbab8fa6c8db7ae-removebg-preview\ \(1\).png);
+    background-size: 23%;
+    background-repeat: no-repeat;
+    background-position-x: left, right;
+}
+
 div [role=banner] {
     font-family: "Island Moments", cursive;
     font-weight: 400;
@@ -70,7 +81,7 @@ div [role=banner] {
 
 .summary > p:last-child > a {
     margin-left: 5px;
-    margin-right: 5px;
+    margin-right: -20px;
 }
 
 .summary > p:first-child > abbr {
@@ -96,7 +107,7 @@ justify-content: center;
     justify-content: center;
 }
 
-.intro .preamble {
+section.intro .preamble {
     font-size: 0.75rem;
     display: flex;
     flex-direction: column;
@@ -106,6 +117,10 @@ justify-content: center;
     position: absolute;
     top: 8.1%;
     right: 5%;
+}
+
+.preamble > p{
+    text-indent: 0px;
 }
 
 .sidebar {
@@ -122,7 +137,7 @@ body {
     font-style: normal;
 }
 
-a {
+a:empty {
 }
 
 a:link {
@@ -152,3 +167,58 @@ p:last-of-type {
 p:first-of-type {
     margin-top: 15px;
 }
+ul li {
+    background: -webkit-linear-gradient(#a1842e, #83b9a2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h3 + p {
+    text-indent: 25px;
+}
+
+p + p {
+    text-indent: 25px;
+}
+
+div [role=contentinfo] {
+    text-indent: 0px;
+}
+
+*::selection {
+    color:#dab340;
+}
+
+:not(p) {
+    text-indent: 0px;
+}
+
+p::first-letter {
+    text-transform: capitalize;
+}
+
+p::before {
+    content: ">";
+}
+
+a:focus {
+    color: rgb(228, 200, 59);
+}
+
+.design-selection, .design-archives, .zen-resources, x:only-child {
+    text-decoration: underline;
+}
+
+p::after {
+    content: "<";
+}
+
+h3 ~ p {
+    text-indent: 25px;
+}
+
+li::first-line {
+    color: black;
+}
+
+/* FIGURE OUT WHY FIRST LINE IS BROKEN!!! */
