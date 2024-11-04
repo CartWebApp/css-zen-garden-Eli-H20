@@ -217,8 +217,21 @@ h3 ~ p {
     text-indent: 25px;
 }
 
-li::first-line {
+p::first-line {
     color: black;
 }
 
+p:only-of-type {
+    color: black;
+}
+
+p:nth-child(1) {
+    background: -webkit-linear-gradient(#a1842e, #83b9a2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p:nth-last-child(1) {
+    content: "*";
+}
 /* FIGURE OUT WHY FIRST LINE IS BROKEN!!! */
